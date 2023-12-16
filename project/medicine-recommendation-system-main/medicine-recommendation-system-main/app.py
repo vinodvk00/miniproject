@@ -12,7 +12,7 @@ with open('project/medicine-recommendation-system-main/medicine-recommendation-s
                                         ## Application Backend ##
 
                     # To load medicine-dataframe from pickle in the form of dictionary
-medicines_dict = pickle.load(open('medicine_dict.pkl','rb'))
+medicines_dict = pickle.load(open('project/medicine-recommendation-system-main/medicine-recommendation-system-main/medicine_dict.pkl','rb'))
 medicines = pd.DataFrame(medicines_dict)
 
                     # To load similarity-vector-data from pickle in the form of dictionary
