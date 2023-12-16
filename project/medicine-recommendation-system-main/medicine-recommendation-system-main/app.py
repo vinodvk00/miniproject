@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
                                         ## To Add External CSS ##
-with open('css/style.css') as f:
+with open('project/medicine-recommendation-system-main/medicine-recommendation-system-main/css/style.css') as f:
      st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
